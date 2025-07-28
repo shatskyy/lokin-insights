@@ -205,3 +205,25 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# Project specific
+.env
+logs/*.log
+reports/png/*.png
+reports/csv/*.csv
+reports/json/*.json
+ingest/raw_samples/*.json
+ingest/raw_samples/*.csv
+
+# Database
+*.db
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
