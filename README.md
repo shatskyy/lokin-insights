@@ -11,34 +11,6 @@ A comprehensive tool for ingesting, analyzing, and visualizing startup ecosystem
 
 ## 📁 Project Structure
 
-cat > README.md << 'EOF'
-
-# Lokin Insights - Startup Landscape Insight Tool
-
-A comprehensive tool for ingesting, analyzing, and visualizing startup ecosystem data from multiple public sources including AngelList, Product Hunt, and Y Combinator datasets.
-
-## 🎯 Project Goals
-
-- **Automated Data Ingestion**: Daily collection from multiple startup databases
-- **Trend Analysis**: Industry trends, tag popularity, and launch patterns
-- **Insight Dashboard**: Real-time visualization of startup landscape
-- **Idea Generator**: AI-powered startup idea suggestions based on market trends
-
-## 📁 Project Structure
-
-# Lokin Insights - Startup Landscape Insight Tool
-
-A comprehensive tool for ingesting, analyzing, and visualizing startup ecosystem data from multiple public sources including AngelList, Product Hunt, and Y Combinator datasets.
-
-## 🎯 Project Goals
-
-- **Automated Data Ingestion**: Daily collection from multiple startup databases
-- **Trend Analysis**: Industry trends, tag popularity, and launch patterns
-- **Insight Dashboard**: Real-time visualization of startup landscape
-- **Idea Generator**: AI-powered startup idea suggestions based on market trends
-
-## 📁 Project Structure
-
 lokin-insights/
 ├── ingest/ # Data ingestion pipeline
 │ ├── configs/ # Source configuration files
@@ -68,6 +40,7 @@ lokin-insights/
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/YOUR_USERNAME/lokin-insights.git
    cd lokin-insights
